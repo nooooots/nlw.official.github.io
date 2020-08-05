@@ -1,0 +1,26 @@
+@media(max-width:850px){
+  .work{
+    width:49%;
+  }
+}
+
+@media(max-width:500px){
+  .triangle{
+    display:block;
+  }
+  .header-right a{
+    display:none;
+  }
+
+  .works a{
+    font-size: 10.5px;
+  }
+
+  .work{
+    width:100%;
+  }
+}
+
+
+
+}

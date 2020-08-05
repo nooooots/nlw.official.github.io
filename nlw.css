@@ -1,0 +1,99 @@
+*{
+box-sizing: border-box;
+text-decoration: none;
+margin:0;
+}
+
+.container{
+  width:100%
+}
+
+header{
+  background-color: #aaa;
+  height:75px;
+  position: fixed;
+  z-index:10;
+  width:100%;
+}
+
+.header-left img{
+  float:left;
+  width:60px;
+  padding:15px 0 0 20px;
+}
+
+.header-right{
+  float:right;
+  list-style: none;
+  font-size: 18px
+
+}
+
+.header-right a{
+  line-height: 75px;
+  float:left;
+  padding-right:15px;
+  color:white;
+}
+
+.header-right a :hover{
+  z-index:15
+  background-color:#366c8b;
+  color: pink;
+}
+
+.triangle{
+  color:white;
+  font-size:40px;
+  margin-right:20px;
+  line-height: 75px;
+  float:right;
+  display:none;
+}
+
+.clear{
+  clear:both;
+}
+
+.works-tab .container{
+  padding-top:100px;
+}
+
+.works a{
+  font-size: 10.5px;
+  line-height:0px;
+}
+
+.work{
+  position:relative;
+  display:inline-block;
+  width:33%;
+  margin:0;
+}
+
+.work img{
+  width:100%;
+  display:inline-block;
+  opacity: 0.65;
+}
+
+.works{
+ width:100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.work p{
+  position:absolute;
+  top:38%;
+  left:50%;
+  transform:translate(-50%,-38%);
+  color:black;
+  text-decoration:none;
+  display:none;
+}
+
+.work img:hover{
+  opacity:1;
+  transition:all 0.3s;
+}
